@@ -1,0 +1,35 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    /* height: 100vh; */
+    /* user-zoom: fixed; */
+    transition: all 0.3s;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.emoji {
+    font-size: 10rem;
+    user-select: none;
+}
+
+.open {
+    display: none;
+}
+
+.close {
+    display: none;
+}
+
+.active {
+    display: block;
+    /* transition-property: opacity;
+    transition: all 0.3s; */
+    /* transition: all 0.3s; */
+}

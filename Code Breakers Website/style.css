@@ -1,0 +1,40 @@
+/* * {
+    bottom: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.logo {
+    height: 4rem;
+}
+
+.bg {
+    background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url(img/lappy.jpg);
+    min-height: 100vh;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    color: white;
+}
+
+.nav-link a::after {
+    content: '';
+    height: 2px;
+    width: 0%;
+    background: tomato;
+    display: block;
+    margin: auto;
+    transition: 0.5s ease-in-out;
+}
+
+
+/* 
+.nav-edit {
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    top: -100vh;
+    color: white;
+} */

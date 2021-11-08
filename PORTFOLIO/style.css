@@ -1,0 +1,36 @@
+*{
+    padding: 0;
+    margin: 0;
+
+}
+
+section{
+    height: 100vh;
+   background-color: lightblue;
+   font-family:  sans-serif;
+
+   
+}
+.main{
+    display: flex;
+    flex-basis: 50%;
+
+}
+
+.profile-image{
+    height: 100vh;
+    width: 30%;
+
+
+}
+.profile-image img{
+    height:100%;
+    /* width: 100%; */
+
+}
+
+/* .main-page{
+
+    background-color: lightblue;
+    height: 100px;
+} */
